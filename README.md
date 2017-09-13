@@ -7,6 +7,6 @@ The "Fishing association" need to have all lakes in one table and all unique fis
 which fish live in which lake. We assume that lakes are already in table. Its up to you to add them. But fish are unknown
 and have to be created when added in system. For UI specific requirements reference the mockup image.
 
-You are given a Symfony project. You need to implement this application in it.
+You are given a Symfony project. You need to implement this application in it. Design doesnt matter.
 
 ![Mockup](mockup.jpg)
