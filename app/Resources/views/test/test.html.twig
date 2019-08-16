@@ -1,0 +1,11 @@
+{%  if user_first_name|length and user_last_name|length and user_age|length %}
+    <h1>Hello {{ user_first_name }} {{ user_last_name }}, your age: {{ user_age }}</h1>
+{% else %}
+    <h1>Register please</h1>
+    <form action="{{ path("test") }}">
+        <input name="first_name" type="text" placeholder="Enter user name" required>
+        <input name="last_name" type="text" placeholder="Enter user last name" required>
+        <input name="age" type="text" placeholder="Enter user age" required>
+        <input type="search" value="Send">
+    </form>
+{% endif %}
